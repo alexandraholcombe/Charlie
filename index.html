@@ -1,48 +1,56 @@
 <DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>The Holcombe Dog Family</title>
   </head>
 
   <body bgcolor=aliceblue>
-    <h1>The Holcombe Dog Family</h1>
-    <h3><em>A webpage for each of the dogs in my family</em></h3>
+    <div class="container">
+      <h1>The Holcombe Dog Family</h1>
+      <h3><em>A webpage for each of the dogs in my family</em></h3>
 
-    <a href="Charlie.html">
-      <h2>Charlie</h2>
-      <img src="http://i.imgur.com/RKfqblB.jpg" width=300px height=200px alt="A picture of a black labradoodle named Charlie with a white chin and a long beard">
-    </a>
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="220px" height="220px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<path id="template" style="fill:red;" d="M340.8,98.4c50.7,0,91.9,41.3,91.9,92.3c0,26.2-10.9,49.8-28.3,66.6L256,407.1L105,254.6c-15.8-16.6-25.6-39.1-25.6-63.9
-	c0-51,41.1-92.3,91.9-92.3c38.2,0,70.9,23.4,84.8,56.8C269.8,121.9,302.6,98.4,340.8,98.4 M340.8,83C307,83,276,98.8,256,124.8
-	c-20-26-51-41.8-84.8-41.8C112.1,83,64,131.3,64,190.7c0,27.9,10.6,54.4,29.9,74.6L245.1,418l10.9,11l10.9-11l148.3-149.8
-	c21-20.3,32.8-47.9,32.8-77.5C448,131.3,399.9,83,340.8,83L340.8,83z"/>
-</svg>
+      <a href="Charlie.html">
+        <h2>Charlie</h2>
+        <img src="http://i.imgur.com/RKfqblB.jpg" width=300px height=200px alt="A picture of a black labradoodle named Charlie with a white chin and a long beard">
+      </a>
+      <!-- <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 width="220px" height="220px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+  <path id="template" style="fill:red;" d="M340.8,98.4c50.7,0,91.9,41.3,91.9,92.3c0,26.2-10.9,49.8-28.3,66.6L256,407.1L105,254.6c-15.8-16.6-25.6-39.1-25.6-63.9
+  	c0-51,41.1-92.3,91.9-92.3c38.2,0,70.9,23.4,84.8,56.8C269.8,121.9,302.6,98.4,340.8,98.4 M340.8,83C307,83,276,98.8,256,124.8
+  	c-20-26-51-41.8-84.8-41.8C112.1,83,64,131.3,64,190.7c0,27.9,10.6,54.4,29.9,74.6L245.1,418l10.9,11l10.9-11l148.3-149.8
+  	c21-20.3,32.8-47.9,32.8-77.5C448,131.3,399.9,83,340.8,83L340.8,83z"/>
+  </svg> -->
 
+      <a href="Izzy.html">
+        <h2>Izzy</h2>
+        <img src="http://i.imgur.com/e0YQGow.jpg" width=300px height=200px alt="A picture of a black labradoodle named Izzy with a white chin and big brown eyes">
+      </a>
 
-    <a href="Izzy.html">
-      <h2>Izzy</h2>
-      <img src="http://i.imgur.com/e0YQGow.jpg" width=300px height=200px alt="A picture of a black labradoodle named Izzy with a white chin and big brown eyes">
-    </a>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="205">
+        <circle cx="105" cy="105" r="95" stroke="mediumseagreen" stroke-width="4" fill="lightgreen" />
+        <circle cx="145" cy="105" r="70" stroke="mediumseagreen" stroke-width="4" fill="aliceblue" />
+        <circle cx="175" cy="105" r="63" stroke="aliceblue" stroke-width="4" fill="aliceblue" />
+      </svg> -->
 
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="205">
-      <circle cx="105" cy="105" r="95" stroke="mediumseagreen" stroke-width="4" fill="lightgreen" />
-      <circle cx="145" cy="105" r="70" stroke="mediumseagreen" stroke-width="4" fill="aliceblue" />
-      <circle cx="175" cy="105" r="63" stroke="aliceblue" stroke-width="4" fill="aliceblue" />
-    </svg>
+      <a href="Frankie.html">
+        <h2>Frankie</h2>
+        <img src="http://i.imgur.com/ySD44xF.jpg" width=300px height=200px alt="A picture of a tri-color Cocker Spaniel named Frankie who is definitely adopted">
+      </a>
+      <br><br>
 
-
-    <a href="Frankie.html">
-      <h2>Frankie</h2>
-      <img src="http://i.imgur.com/ySD44xF.jpg" width=300px height=200px alt="A picture of a tri-color Cocker Spaniel named Frankie who is definitely adopted">
-    </a>
-
-    <svg width="300" height="200">
+      <div>
+        <button class="btn-muted" id="night-mode">Night Mode</button>
+        <button class="btn-warning" id="day-mode">Day Mode</button>
+      </div>
+      <!-- <svg width="300" height="200">
       <polygon points="100,10 40,198 190,78 10,78 160,198"
       style="fill:thistle;stroke:darkslateblue;stroke-width:5;fill-rule:evenodd;" />
-    </svg>
-
+      </svg> -->
+    </div>
     <footer bgcolor="gray">Copyright (c) 2017 Allie Holcombe, Nicole Sanders. This software is licensed under Creative Commons.
     </footer>
 
